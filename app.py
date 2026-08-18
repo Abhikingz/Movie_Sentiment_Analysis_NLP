@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 from train import train_sentiment_pipeline
 
-st.set_page_config(page_title="Movie Sentiment Analysis: NLP Pipeline", page_icon="🎬", layout="centered")
+st.set_page_config(page_title="Movie Sentiment Analysis: NLP Pipeline", page_icon="", layout="centered")
 
-st.title("🎬 Movie Sentiment Analysis: NLP Pipeline")
+st.title(" Movie Sentiment Analysis: NLP Pipeline")
 st.write("End to end text classification pipeline trained on 50,000 IMDB movie reviews.")
 
 vectorizer, model = train_sentiment_pipeline()
